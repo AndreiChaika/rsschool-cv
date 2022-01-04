@@ -1,1 +1,2 @@
-<https://github-username.github.io/rsschool-cv/cv>
+<https://adnreichaika.github.io/rsschool-cv/cv>
+<https://adnreichaika.github.io/rsschool-cv/>

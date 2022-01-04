@@ -1,2 +1,2 @@
-<https://adnreichaika.github.io/rsschool-cv/cv>
-<https://adnreichaika.github.io/rsschool-cv/>
+<https://andreichaika.github.io/rsschool-cv/cv>
+<https://andreichaika.github.io/rsschool-cv/>

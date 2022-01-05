@@ -5,44 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <title>CV Andrei Chaika</title>
 </head>
 <body>
     <header>
       <nav class="menu">
           <ul>
-              <li><a href="#contact">Contact</a></li>
               <li><a href="#summary">Summary</a></li>
               <li><a href="#skills">Skills</a></li>
-              <li><a href="#code">Code Example</a></li>
+              <li><a href="#code">Code</a></li>
               <li><a href="#projects">Projects</a></li>
               <li><a href="#education">Education</a></li>
               <li><a href="#languages">Languages</a></li>
           </ul>
       </nav>  
     </header>
-    <main>
-        <h1>Andrei Chaika</h1>
-
-        <div id="contact">
-            <h2>Contact information</h2>
-            <ul>
-                <li>Country: Russia Federation</li>
-                <li>City: Saint-Petersburg</li>
-                <li>Phone: +7 (921) 99-55-631</li> 
-                <li>E-mail: redsn@inbox.ru</li>
-                <li>Telegram: +7 (921) 99-55-631 </li>
-                <li>GitHub: AndreiChaika</li>
-                <li>Discord: AndreiChaika#1944</li>
+    
+    <aside>
+        <div class="levo">
+            <img src="amchaika.jpg">
+        <div class="contacts">
+            <h1 class="animated fadeInDown">Andrei Chaika</h1>
+            <hr class="animated fadeInDown">
+            <p class="animated fadeInDown">Junior Front-End Developer</p>
+            <ul class="animated fadeInDown punkti">
+                <li><i class="bi bi-pin-map"></i> Russia,  St. Petersburg</li>
+                <li><i class="bi bi-telephone"></i> +7 (921) 99-55-631</li> 
+                <li><i class="bi bi-whatsapp"></i> +7 (921) 99-55-631 </li>
+                <li><i class="bi bi-telegram"></i>  +7 (921) 99-55-631 </li>
+                <li><i class="bi bi-envelope"></i>  redsn@inbox.ru</li>
+                <li><i class="bi bi-github"></i> AndreiChaika</li>
+                <li><i class="bi bi-discord"></i> AndreiChaika#1944</li>
             </ul>
         </div>
+        </div>
+    </aside>
+    
+    <main>
         
-        <div id="summary">
+        <div id="summary" class="animated fadeInDown">
             <h2>Summary:</h2>
             <p>I have been working as an individual entrepreneur in the IT field since 2015. I organized the work of the team, and also independently performed freelance orders for website development, maintenance, online advertising and SEO promotion in search engines. It has always been interesting to work for a large IT company where larger and more time-consuming tasks are performed. I am 29 years old, married, 1 child.</p>
         </div>
         
-        <div id="skills">
+        <div id="skills" class="animated fadeInDown">
             <h2>Skills:</h2>
             <ul>
                 <li>HTML5, CSS3 </li>
@@ -52,12 +59,14 @@
             </ul>
         </div>
         
-        <div id="code">
+        <div id="code" class="animated fadeInDown">
             <h2>Code Example:</h2>
-            <code>function multiply(a, b){<br>return a * b<br>}</code>
+<pre><code>function multiply(a, b){
+     return a * b
+}</code></pre>
         </div>
         
-        <div id="projects">
+        <div id="projects" class="animated fadeInDown">
             <h2>Projects:</h2>
             <ul>
                 <li><a href="https://biznservice.ru">https://biznservice.ru</a></li>
@@ -69,13 +78,13 @@
             </ul>
         </div>
         
-        <div id="education">
+        <div id="education" class="animated fadeInDown">
             <h2>Education:</h2>
-            <p>Saint-Petersburg Mining university - Specialty of Mining Engineer</p>
-            <p>Baltic State Technical University "Voenmeh" D.F. Ustinov - Master of Public and Municipal Administratio</p>
+            <div class="institut"><img src="voenmeh.png" class="inst"> <p><span>2020</span><br>Baltic State Technical University "Voenmeh"<br>Master of Public and Municipal Administration</p></div>
+            <div class="institut"><img src="gorniy.png" class="inst"> <p><span>2014</span><br>Saint-Petersburg Mining university<br>Specialty of Mining Engineer</p></div>
         </div>
         
-        <div id="languages">
+        <div id="languages" class="animated fadeInDown">
             <h2>Languages:</h2>
             <p>Russian - Native</p>
             <p>English - Intermediate B1</p>

@@ -1,2 +1,87 @@
-.abc {color: blue;}
-.bcd {color: red;}
+@font-face{font-family:PFDinDisplayPro;src:url(PFDinDisplayPro-Regular.eot);src:local('☺'),url(PFDinDisplayPro-Regular.woff) format('woff'),url(PFDinDisplayPro-Regular.ttf) format('truetype'),url(PFDinDisplayPro-Regular.svg) format('svg');}
+html {background: linear-gradient(#fff, #dbe1e3);scroll-behavior: smooth; min-height: 100vh;}
+body {background: #fff; max-width: 1000px; margin: 20px auto; box-sizing: border-box; box-shadow: 10px 5px 30px #cacaca; min-width: 320px; font-family: PFDinDisplayPro; font-size: 18px; font-weight: 400; line-height: 1.5; color: #333; display: flex; flex-wrap: wrap; justify-content: space-between;}
+aside, main {position: relative; min-height: 1px;}
+header {position: absolute; z-index: 1; max-width: 1000px; width: 100%;}
+aside {width: 25%; display: block; background: #283c52;}
+main {width: calc(75% - 150px); display: block; padding: 75px;}
+main > div {padding: 30px 0px; border-bottom: dashed #dedede;}
+main > div:last-child {border: none;}
+ul {padding-inline-start: 0px;}
+li {list-style-type: none;} 
+.punkti {padding: 0px 10px 20px;}
+.punkti li {padding-bottom: 15px; font-size: 16px;}
+.contacts {color: #fff; font-size: 14px; padding: 0 20px;}
+.levo {position: sticky; top: 0px;}
+.inst {float: left;}
+.levo img {width: 100%;}
+.institut {display: block;}
+.institut p {line-height: 20px; padding-top: 4px; margin: 25px 0px;}
+.institut span {font-size: 14px; color: #777;}
+.institut img {height: 70px; padding-right: 10px;}
+.contacts p {font-size: 16px; text-align: center; letter-spacing: 1px; padding-bottom: 20px;}
+.bi {width: 30px; display: inline-block;}
+h1 {font-size: 22px; letter-spacing: 4px; text-transform: uppercase; text-align: center;}
+h2 {margin: 5px 0px 0px; background: linear-gradient(to left, #ffffff, #ff0000 100%); background-position: 0 100%; background-size: 100% 2px; background-repeat: repeat-x;  display: -webkit-inline-box;}
+.menu ul {display: flex; justify-content: flex-end; align-items: center; list-style: none;}
+.menu a {position: relative; padding: 0 10px; text-decoration: none; font-size: 14px; font-weight: 300; line-height: 50px; color: #333; text-transform: uppercase; letter-spacing: 1px;}
+.menu > ul > li:last-child > a {padding-right: 60px;}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+ }
+ .animated:nth-child(1) {
+ -webkit-animation-delay: 0.3s;
+ animation-delay: 0.3s;
+}
+.animated:nth-child(2) {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+.animated:nth-child(3) {
+-webkit-animation-delay: 0.9s;
+animation-delay: 0.9s;
+}
+.animated:nth-child(4) {
+   -webkit-animation-delay: 1.2s;
+   animation-delay: 1.2s;
+}
+
+.animated:nth-child(5) {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+ }
+
+ .animated:nth-child(6) {
+    -webkit-animation-delay: 1.8s;
+    animation-delay: 1.8s;
+ }
+  
+@-webkit-keyframes fadeInDown {
+    0% {
+       opacity: 0;
+       -webkit-transform: translateY(-20px);
+    }
+    100% {
+       opacity: 1;
+       -webkit-transform: translateY(0);
+    }
+ }
+ 
+ @keyframes fadeInDown {
+    0% {
+       opacity: 0;
+       transform: translateY(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+ }
+ 
+ .fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+ }

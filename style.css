@@ -72,7 +72,6 @@ h3 a {text-decoration: none; font-size: 30px; letter-spacing: 2px; color: #333;}
     -webkit-animation-delay: 0.4s;
     animation-delay: 0.4s;
 }
-
 .animated:nth-child(1) > .row > .column2 {
     -webkit-animation-delay: 0.7s;
     animation-delay: 0.7s;
@@ -93,9 +92,6 @@ h3 a {text-decoration: none; font-size: 30px; letter-spacing: 2px; color: #333;}
     -webkit-animation-delay: 1.5s;
     animation-delay: 1.5s;
 }
-
-
-
 .animated:nth-child(3) {
 -webkit-animation-delay: 0.9s;
 animation-delay: 0.9s;
@@ -104,17 +100,14 @@ animation-delay: 0.9s;
    -webkit-animation-delay: 1.2s;
    animation-delay: 1.2s;
 }
-
 .animated:nth-child(5) {
     -webkit-animation-delay: 1.5s;
     animation-delay: 1.5s;
  }
-
  .animated:nth-child(6) {
     -webkit-animation-delay: 1.8s;
     animation-delay: 1.8s;
  }
-  
 @-webkit-keyframes fadeInDown {
     0% {
        opacity: 0;

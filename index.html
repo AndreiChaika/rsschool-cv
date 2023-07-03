@@ -77,15 +77,18 @@
 
         <div class="column13 fadeInDown" id="code">    
             <h2>Code Example</h2>
-<pre><code>function changeLetters() {
-  btnSymbols.forEach((el) => {
-    const elt = el;
-    if (shiftState === 0) {
-      elt.innerHTML = findKey(elt.id).name;
-    } else {
-      elt.innerHTML = findKey(elt.id).nameShift;
-    }
-  });
+<pre><code>function setLang(langT) {
+  switch (langT) {
+    case 'en':
+      keys = enLang;
+      break;
+    case 'ru':
+      keys = ruLang;
+      break;
+    default:
+      break;
+  }
+  changeLetters();
 }</code></pre>
         </div>
     </section>

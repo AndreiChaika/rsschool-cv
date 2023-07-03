@@ -28,7 +28,7 @@
         <div class="contacts">
             <h1 class="animated fadeInDown">Andrei Chaika</h1>
             <hr class="animated fadeInDown">
-            <p class="animated fadeInDown">Junior Front-End Developer</p>
+            <p class="animated fadeInDown">Middle Front-End Developer</p>
             <ul class="animated fadeInDown punkti">
                 <li><i class="bi bi-pin-map"></i> Russia,  St. Petersburg</li>
                 <li><i class="bi bi-telephone"></i> <a href="tel:+79219955631" target="_blank" title="Telephone">+7 (921) 99-55-631</a></li> 
@@ -77,8 +77,15 @@
 
         <div class="column13 fadeInDown" id="code">    
             <h2>Code Example</h2>
-<pre><code>function multiply(a, b){
-     return a * b
+<pre>function changeLetters() {
+  btnSymbols.forEach((el) => {
+    const elt = el;
+    if (shiftState === 0) {
+      elt.innerHTML = findKey(elt.id).name;
+    } else {
+      elt.innerHTML = findKey(elt.id).nameShift;
+    }
+  });
 }</code></pre>
         </div>
     </section>
